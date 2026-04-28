@@ -1,0 +1,8 @@
+# Force GitHub to detect JavaScript
+*.js linguist-detectable=true
+
+# Exclude dependencies and assets from stats
+node_modules/* linguist-vendored
+public/uploads/* linguist-vendored
+package-lock.json linguist-generated
+.env linguist-generated
