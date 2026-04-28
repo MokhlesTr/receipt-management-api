@@ -1,0 +1,31 @@
+{
+  "name": "recipe-manager-api",
+  "version": "1.0.0",
+  "description": "Backend API for Recipe Manager application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "recipe",
+    "api"
+  ],
+  "author": "Antigravity",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^7.2.0",
+    "mongoose": "^8.3.2",
+    "morgan": "^1.10.0",
+    "multer": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
